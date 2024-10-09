@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename = 'rHome.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+        <div class="box box4"></div>
+    </div>
+    <div class="outer">
+        <div class="inner">
+            <h1 class="title">Lets go?</h1>
+            <form action="/message" method="post">
+                <!-- <label class="label item" for="message">Enter the Message</label> -->
+                <input class="input item" type="email" id="toMail" name="toMail" placeholder="Send mail to?">
+
+                <!-- <label class="label item" for="message">Enter the Message</label> -->
+                <input class="input item" type="text" id="message" name="message" placeholder="Message">
+
+                <input class="input item" type="time" id="time" name="time">
+                <input class="input item" type="date" id="date" name="date">
+
+
+                <button class="button submit" type="submit">Confirm</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

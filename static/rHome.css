@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* https://colorhunt.co/palette/222831393e4600adb5eeeeee */
+/*
+#222831           darker
+#393E46
+#00ADB5
+#EEEEEE           lighter
+*/
+
+body{
+    margin: 0 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+
+    height: 100vh;
+
+    color: #00ADB5;
+
+    background-color: #222831;
+}
+
+.title{
+    text-align: center;
+    padding-bottom: 1.5rem;
+
+    width: 100%;
+    border-bottom: white 3px solid;
+}
+
+.outer{
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.inner{
+    background-color: #393E46;
+    color: #00ADB5;
+
+    border-radius: 2rem 2rem 3rem 3rem;
+    padding: 2rem;
+}
+
+.inner form input{
+    all: unset;
+    border-bottom: 2px #00ADB5 solid;
+    padding: 0.5rem;
+    color: white;
+    font-size: larger;
+    width: 90%;
+}
+
+.inner form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+
+.inner .item{
+    margin: 1rem;
+
+}
+
+.submit{
+    all: unset;
+    background-color: #222831;
+    padding: 0.5rem 2rem;
+
+    border-radius: 3rem 3rem 2rem 2rem;
+
+    margin: 2rem;
+
+    cursor: pointer;
+
+    width: 50%;
+    text-align: center;
+
+    border: #222831 2px solid;
+
+    transition: 0.2s;
+
+    color: #ffffff;
+}
+.submit:hover{
+    transition: 0.2s;
+    background-color: #393E46;
+    color: #00ADB5;
+    border: #00ADB5 2px solid;
+}
+/* .boxes{
+    display: block;
+    height: 100vh;
+    background-color: grey;
+}
+.box{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+
+    display: block;
+
+    animation: inAni 2s;
+}
+.box1{
+    background-color: rgb(65, 65, 65);
+    animation: inAni 2s 0.5s;
+}
+.box2{
+    background-color: rgb(158, 158, 158);
+    animation: inAni 2s 0.4s;
+}
+.box3{
+    background-color: rgb(196, 196, 196);
+    animation: inAni 2s 0.3s;
+}
+.box4{
+    background-color: rgb(255, 255, 255);
+    animation: inAni 2s 0.2s;
+} */
+
